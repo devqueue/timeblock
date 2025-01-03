@@ -39,9 +39,11 @@ export function Navbar() {
           </Link>
         </div>
 
-        <Button variant="default" size="sm">
-          Join Waitlist
-        </Button>
+        <Link href="#waitlist">
+          <Button variant="default" size="sm">
+            Join Waitlist
+          </Button>
+        </Link>
       </nav>
     </motion.header>
   );

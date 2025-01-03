@@ -12,6 +12,7 @@ import {
   ListTodo,
   Zap,
 } from "lucide-react";
+import { WaitlistSection } from "@/components/waitlist-section";
 
 export default function Home() {
   return (
@@ -36,7 +37,7 @@ export default function Home() {
           Seamlessly manage tasks, sync calendars, and optimize your
           productivity with AI-powered scheduling.
         </motion.p>
-        <div id="waitlist">
+        <div>
           <WaitlistForm />
         </div>
       </section>
@@ -100,6 +101,11 @@ export default function Home() {
             icon={Zap}
           />
         </div>
+      </section>
+
+      {/* Waitlist Section */}
+      <section id="waitlist">
+        <WaitlistSection />
       </section>
     </div>
   );
