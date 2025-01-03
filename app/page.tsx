@@ -36,12 +36,22 @@ export default function Home() {
           Seamlessly manage tasks, sync calendars, and optimize your
           productivity with AI-powered scheduling.
         </motion.p>
-
-        <WaitlistForm />
+        <div id="waitlist">
+          <WaitlistForm />
+        </div>
       </section>
 
       {/* Product Demo Section */}
-      <section className="w-full bg-muted/30 py-16">
+      <section className="w-full bg-muted/30 py-16" id="demo">
+        <div className="text-center mb-12">
+          <h2 className="text-3xl md:text-4xl font-bold mb-3">
+            Experience Seamless Integration
+          </h2>
+          <p className="text-lg text-muted-foreground max-w-2xl mx-auto px-4">
+            Discover how our intelligent system adapts to your workflow and
+            enhances your productivity
+          </p>
+        </div>
         <div className="max-w-6xl mx-auto px-4">
           <ProductDemoTabs />
         </div>
@@ -49,9 +59,15 @@ export default function Home() {
 
       {/* Features Section */}
       <section className="w-full max-w-6xl mx-auto px-4 py-16" id="features">
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
-          Everything you need to master your time
-        </h2>
+        <div className="text-center mb-12">
+          <h2 className="text-3xl md:text-4xl font-bold mb-3">
+            Everything You Need to Master Your Time
+          </h2>
+          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+            Powerful features designed to transform your daily productivity and
+            time management
+          </p>
+        </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           <FeatureCard
             title="Smart Calendar Integration"
