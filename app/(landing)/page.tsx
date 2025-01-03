@@ -13,42 +13,18 @@ import {
   Zap,
 } from "lucide-react";
 import { WaitlistSection } from "@/components/waitlist-section";
+import { HeroSection } from "@/components/hero-section";
 
 export default function Home() {
   return (
     <div className="flex flex-col items-center min-h-screen">
       {/* Hero Section */}
-      <section
-        className="w-full max-w-6xl mx-auto px-4 pt-20 pb-16 text-center"
-        id="why"
-      >
-        <motion.h1
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          className="text-4xl md:text-6xl font-bold mb-6 leading-[1.2] pb-1 bg-clip-text text-transparent bg-gradient-to-r from-primary to-primary/70"
-        >
-          Transform Your Day with
-          <br />
-          Intelligent Time Blocking
-        </motion.h1>
-        <motion.p
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.2 }}
-          className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto"
-        >
-          Seamlessly manage tasks, sync calendars, and optimize your
-          productivity with AI-powered scheduling.
-        </motion.p>
-        <div>
-          <WaitlistForm />
-        </div>
-      </section>
+      <HeroSection />
 
       {/* Product Demo Section */}
-      <section className="w-full bg-muted/30 py-16" id="demo">
+      <section className="w-full bg-muted/30 py-16 z-40" id="demo">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold mb-3">
+          <h2 className="text-3xl md:text-4xl font-bold mb-3 px-4">
             Experience Seamless Integration
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto px-4">
