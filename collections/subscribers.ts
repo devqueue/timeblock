@@ -15,6 +15,7 @@ export const Subscribers: CollectionConfig = {
       name: 'email',
       type: 'text',
       required: true,
+      unique: true,
     },
   ],
 }

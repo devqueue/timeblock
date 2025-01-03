@@ -1,7 +1,5 @@
 "use client";
 
-import { motion } from "framer-motion";
-import { WaitlistForm } from "@/components/ui/waitlist-form";
 import { FeatureCard } from "@/components/feature-card";
 import { ProductDemoTabs } from "@/components/product-demo/product-demo-tabs";
 import {
