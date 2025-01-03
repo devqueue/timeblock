@@ -34,7 +34,7 @@ export function ProductDemoTabs() {
           </TabsTrigger>
         </TabsList>
 
-        <div className="mt-6 pt-8 sm:pt-0">
+        <div className="mt-6 pt-8 md:pt-0">
           <TabsContent value="todo" className="m-0">
             <TodoCalendarTab />
           </TabsContent>

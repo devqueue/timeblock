@@ -4,29 +4,39 @@ import { motion } from "framer-motion";
 import { WaitlistForm } from "@/components/ui/waitlist-form";
 import { FeatureCard } from "@/components/feature-card";
 import { ProductDemoTabs } from "@/components/product-demo/product-demo-tabs";
-import { Calendar, Clock, Repeat, CalendarClock, ListTodo, Zap } from "lucide-react";
+import {
+  Calendar,
+  Clock,
+  Repeat,
+  CalendarClock,
+  ListTodo,
+  Zap,
+} from "lucide-react";
 
 export default function Home() {
   return (
     <div className="flex flex-col items-center min-h-screen">
       {/* Hero Section */}
       <section className="w-full max-w-6xl mx-auto px-4 pt-20 pb-16 text-center">
-        <motion.h1 
+        <motion.h1
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          className="text-4xl md:text-6xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-primary to-primary/70"
+          className="text-4xl md:text-6xl font-bold mb-6 leading-[1.2] pb-1 bg-clip-text text-transparent bg-gradient-to-r from-primary to-primary/70"
         >
-          Transform Your Day with<br />Intelligent Time Blocking
+          Transform Your Day with
+          <br />
+          Intelligent Time Blocking
         </motion.h1>
-        <motion.p 
+        <motion.p
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.2 }}
           className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto"
         >
-          Seamlessly manage tasks, sync calendars, and optimize your productivity with AI-powered scheduling.
+          Seamlessly manage tasks, sync calendars, and optimize your
+          productivity with AI-powered scheduling.
         </motion.p>
-        
+
         <WaitlistForm />
       </section>
 

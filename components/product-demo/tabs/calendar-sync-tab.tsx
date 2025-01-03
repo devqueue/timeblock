@@ -1,7 +1,13 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Briefcase, Home, ArrowLeftRight, ArrowUpDown } from "lucide-react";
+import {
+  Briefcase,
+  Home,
+  ArrowLeftRight,
+  ArrowUpDown,
+  CalendarClock,
+} from "lucide-react";
 
 export function CalendarSyncTab() {
   const calendars = [
@@ -26,6 +32,7 @@ export function CalendarSyncTab() {
   return (
     <div className="space-y-6">
       <div className="flex items-center justify-center space-x-2 text-primary p-4 sm:p-6">
+        <CalendarClock className="w-5 h-5 sm:w-6 sm:h-6" />
         <h3 className="font-semibold text-sm sm:text-base">
           Connected Calendars
         </h3>
