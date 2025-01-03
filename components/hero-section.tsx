@@ -1,7 +1,6 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { WaitlistForm } from "@/components/ui/waitlist-form";
 
 export function HeroSection() {
   return (
