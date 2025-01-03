@@ -20,26 +20,26 @@ export function Navbar() {
 
         <div className="hidden md:flex items-center space-x-8">
           <Link
-            href="#about"
+            href="/#why"
             className="text-sm text-muted-foreground hover:text-foreground transition-colors"
           >
-            About
+            Why TimeBlock
           </Link>
           <Link
-            href="#demo"
+            href="/#demo"
             className="text-sm text-muted-foreground hover:text-foreground transition-colors"
           >
             Product
           </Link>
           <Link
-            href="#features"
+            href="/#features"
             className="text-sm text-muted-foreground hover:text-foreground transition-colors"
           >
             Features
           </Link>
         </div>
 
-        <Link href="#waitlist">
+        <Link href="/#waitlist">
           <Button variant="default" size="sm">
             Join Waitlist
           </Button>

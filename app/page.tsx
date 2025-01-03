@@ -18,7 +18,10 @@ export default function Home() {
   return (
     <div className="flex flex-col items-center min-h-screen">
       {/* Hero Section */}
-      <section className="w-full max-w-6xl mx-auto px-4 pt-20 pb-16 text-center">
+      <section
+        className="w-full max-w-6xl mx-auto px-4 pt-20 pb-16 text-center"
+        id="why"
+      >
         <motion.h1
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
