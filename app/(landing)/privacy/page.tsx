@@ -7,7 +7,7 @@ export default function PrivacyPolicy() {
     <LegalLayout title="Privacy Policy" lastUpdated="March 20, 2024">
       <h2>Introduction</h2>
       <p>
-        At TimeBlock, we take your privacy seriously. This Privacy Policy
+        At timetabs, we take your privacy seriously. This Privacy Policy
         explains how we collect, use, disclose, and safeguard your information
         when you use our service.
       </p>
@@ -61,7 +61,7 @@ export default function PrivacyPolicy() {
       <h2>Contact Us</h2>
       <p>
         If you have any questions about this Privacy Policy, please contact us
-        at privacy@timeblock.com
+        at privacy@timetabs.co
       </p>
     </LegalLayout>
   );

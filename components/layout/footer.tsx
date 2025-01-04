@@ -19,7 +19,7 @@ export function Footer() {
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
               <Clock className="w-6 h-6" />
-              <span className="font-semibold text-lg">TimeBlock</span>
+              <span className="font-semibold text-lg">TimeTabs</span>
             </div>
             <p className="text-sm text-muted-foreground">
               Revolutionizing the way you manage time and tasks.
@@ -111,7 +111,7 @@ export function Footer() {
 
         <div className="mt-12 pt-8 border-t border-border flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
           <p className="text-sm text-muted-foreground">
-            © {currentYear} TimeBlock. All rights reserved.
+            © {currentYear} TimeTabs. All rights reserved.
           </p>
           <div className="flex space-x-4">
             <Link

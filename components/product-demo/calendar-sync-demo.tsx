@@ -18,7 +18,7 @@ export function CalendarSyncDemo() {
           <TabsTrigger value="sync" className="text-sm sm:text-base">
             Calendar Sync
           </TabsTrigger>
-          <TabsTrigger value="timeblock" className="text-sm sm:text-base">
+          <TabsTrigger value="timetabs" className="text-sm sm:text-base">
             Time Blocking
           </TabsTrigger>
         </TabsList>
@@ -102,7 +102,7 @@ export function CalendarSyncDemo() {
           </motion.div>
         </TabsContent>
 
-        <TabsContent value="timeblock">
+        <TabsContent value="timetabs">
           <div className="rounded-lg border border-border p-3 sm:p-4">
             <div className="grid grid-cols-3 sm:grid-cols-7 gap-2 sm:gap-3">
               {[...Array(7)].map((_, i) => (

@@ -79,7 +79,7 @@ export function WaitlistSection() {
             transition={{ delay: 0.2 }}
             className="max-w-2xl mx-auto text-muted-foreground"
           >
-            Join our exclusive waitlist and get early access to TimeBlock.
+            Join our exclusive waitlist and get early access to timetabs.
             Transform the way you manage your time and boost your productivity.
           </motion.p>
 

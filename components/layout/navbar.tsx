@@ -15,7 +15,7 @@ export function Navbar() {
       <nav className="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
         <Link href="/" className="flex items-center space-x-2">
           <Clock className="w-6 h-6" />
-          <span className="font-semibold text-lg">TimeBlock</span>
+          <span className="font-semibold text-lg">TimeTabs</span>
         </Link>
 
         <div className="hidden md:flex items-center space-x-8">
@@ -23,7 +23,7 @@ export function Navbar() {
             href="/#why"
             className="text-sm text-muted-foreground hover:text-foreground transition-colors"
           >
-            Why TimeBlock
+            Why TimeTabs
           </Link>
           <Link
             href="/#demo"

@@ -7,14 +7,14 @@ export default function TermsAndConditions() {
     <LegalLayout title="Terms and Conditions" lastUpdated="March 20, 2024">
       <h2>Agreement to Terms</h2>
       <p>
-        By accessing or using TimeBlock, you agree to be bound by these Terms
-        and Conditions. If you disagree with any part of the terms, you may not
+        By accessing or using timetabs, you agree to be bound by these Terms and
+        Conditions. If you disagree with any part of the terms, you may not
         access the service.
       </p>
 
       <h2>Use License</h2>
       <p>
-        Permission is granted to temporarily access TimeBlock for personal,
+        Permission is granted to temporarily access timetabs for personal,
         non-commercial transitory viewing only.
       </p>
 
@@ -24,7 +24,7 @@ export default function TermsAndConditions() {
         <li>Use the materials for any commercial purpose</li>
         <li>
           Attempt to decompile or reverse engineer any software contained in
-          TimeBlock
+          timetabs
         </li>
         <li>
           Remove any copyright or other proprietary notations from the materials
@@ -33,21 +33,21 @@ export default function TermsAndConditions() {
 
       <h2>User Account</h2>
       <p>
-        To access certain features of TimeBlock, you may be required to create
-        an account. You are responsible for maintaining the confidentiality of
-        your account information.
+        To access certain features of timetabs, you may be required to create an
+        account. You are responsible for maintaining the confidentiality of your
+        account information.
       </p>
 
       <h2>Service Modifications</h2>
       <p>
-        We reserve the right to withdraw or amend TimeBlock, and any service or
+        We reserve the right to withdraw or amend timetabs, and any service or
         material we provide, in our sole discretion without notice.
       </p>
 
       <h2>Limitation of Liability</h2>
       <p>
-        In no event shall TimeBlock or its suppliers be liable for any damages
-        arising out of the use or inability to use the materials on TimeBlock.
+        In no event shall timetabs or its suppliers be liable for any damages
+        arising out of the use or inability to use the materials on timetabs.
       </p>
 
       <h2>Governing Law</h2>
@@ -67,7 +67,7 @@ export default function TermsAndConditions() {
       <h2>Contact Information</h2>
       <p>
         Questions about the Terms of Service should be sent to us at
-        terms@timeblock.com
+        terms@timetabs.co
       </p>
     </LegalLayout>
   );
