@@ -7,7 +7,7 @@ import { Toaster } from "sonner";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "timetabs - Intelligent Task Management",
+  title: "TimeTabs - Intelligent Task Management",
   description:
     "Master your time with smart task management and calendar integration",
 };
